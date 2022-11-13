@@ -244,7 +244,7 @@ A^(-1) =  1/|A| * M^T. = -38  41 -34
 - I do not use outdated and legacy language constructions and library functions. I use the POSIX.1-2017 standard.
 - Functions developed as a static library (with the s21_matrix.h header file)
 - The library developed according to the principles of structured programming;
-- I use prefix s21_ before each function
+- There are prefix s21_ before each function
 - The gcov_report target generate a gcov report in the form of an html page. Unit tests run with gcov flags to do this 
 - The matrix implemented as the structure described [above](#matrix-structure-in-c-language)
 - Verifiable accuracy of the fractional part is up to 6 decimal places
